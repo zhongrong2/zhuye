@@ -283,7 +283,7 @@
 	float: left;
 	position: absolute;
 	top: 147px;
-	right: 94%
+	left: 20px;
 }
 .about_right_pagers div{
 	display: block;
@@ -1184,15 +1184,57 @@ form{
 	.mail_right {
 	    padding: 2em;
 	    margin-top: 1em;
+	}
 }
 
 
 
-/* .about_describe_items{
-	width: 4050px!important;
+.about_describe_items{
+	width: 4050px;
 	float: right;
 	height: auto;
 	left: 0px;
 	transition: all 800ms ease;
-} */
+}
+.about_right{
+	overflow-x: hidden;
+}
+.about_describe_item{
+	float: left;
+}
+.about_describe_active{
+	background-color: #00a78e;
+}
+
+
+.top_banner_right img{
+	cursor: pointer;
+}
+.top_banner_right img:hover{
+	animation: rotate 1s;
+}
+@keyframes rotate{
+	0%{
+		transform: rotate(0);
+	}
+	100%{
+		transform: rotate(360deg);
+	}
+}
+.works-img{
+	width: 260px;
+	height: 126px;
+}
+.works_product{
+	margin:0 auto;
+	padding:0px 50px 40px;
+}
+.works_product_item{
+	width: 290px;
+	height: auto;
+	display: block;
+	margin-top: 15px;
+	margin-left: 16px;
+	margin-right: 16px;
+}
 
